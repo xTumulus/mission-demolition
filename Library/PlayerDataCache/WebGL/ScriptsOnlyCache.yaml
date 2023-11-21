@@ -81,10 +81,10 @@ ScriptsOnlyBuild:
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: MenuManager
-    methodName: StartGame
+    methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: MenuManager
-    methodName: QuitGame
+    methodName: StartGame
   - assembly: Assembly-CSharp
     fullTypeName: MenuManager
     methodName: setDifficulty

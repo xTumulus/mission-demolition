@@ -414,13 +414,7 @@
         406,
         407,
         408,
-        409,
-        410,
-        411,
-        412,
-        413,
-        414,
-        415
+        409
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -18518,116 +18512,34 @@
       "DebugActionIndex": 387
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-      "DisplayName": "7z build.framework.js",
-      "Action": "cd \"/home/tumulus/code/school/cs413/MissionDemolition/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/7za\" a -tgzip \"/home/tumulus/code/school/cs413/MissionDemolition/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"build.framework.js\"",
+      "Annotation": "CopyFiles MissionDemolition/Build/MissionDemolition.framework.js",
+      "DisplayName": "Copying MissionDemolition.framework.js",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/7za"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
+        "MissionDemolition/Build/MissionDemolition.framework.js"
       ],
       "ToBuildDependencies": [
         387
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
       "DebugActionIndex": 388
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/MissionDemolition.framework.js.gz_swdg.info",
-      "DisplayName": "Writing MissionDemolition.framework.js.gz_swdg.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 88761,
-      "PayloadLength": 468,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/MissionDemolition.framework.js.gz_swdg.info"
-      ],
-      "DebugActionIndex": 389
-    },
-    {
-      "Annotation": "GzipMarker MissionDemolition/Build/MissionDemolition.framework.js.gz",
-      "DisplayName": "GzipMarker MissionDemolition.framework.js",
-      "Action": "\"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/netcorerun/netcorerun\" \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\" \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee:/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/MissionDemolition.framework.js.gz_swdg.info\"",
+      "Annotation": "CopyFiles MissionDemolition/Build/MissionDemolition.wasm",
+      "DisplayName": "Copying MissionDemolition.wasm",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/MissionDemolition.framework.js.gz_swdg.info",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "Outputs": [
-        "MissionDemolition/Build/MissionDemolition.framework.js.gz"
-      ],
-      "ToBuildDependencies": [
-        388,
-        389
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 390
-    },
-    {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-      "DisplayName": "7z build.wasm",
-      "Action": "cd \"/home/tumulus/code/school/cs413/MissionDemolition/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/7za\" a -tgzip \"/home/tumulus/code/school/cs413/MissionDemolition/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"build.wasm\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/7za"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
+        "MissionDemolition/Build/MissionDemolition.wasm"
       ],
       "ToBuildDependencies": [
         385
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 391
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/MissionDemolition.wasm.gz_9tdl.info",
-      "DisplayName": "Writing MissionDemolition.wasm.gz_9tdl.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 89332,
-      "PayloadLength": 452,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/MissionDemolition.wasm.gz_9tdl.info"
-      ],
-      "DebugActionIndex": 392
-    },
-    {
-      "Annotation": "GzipMarker MissionDemolition/Build/MissionDemolition.wasm.gz",
-      "DisplayName": "GzipMarker MissionDemolition.wasm",
-      "Action": "\"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/netcorerun/netcorerun\" \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\" \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee:/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/MissionDemolition.wasm.gz_9tdl.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/MissionDemolition.wasm.gz_9tdl.info",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset"
-      ],
-      "Outputs": [
-        "MissionDemolition/Build/MissionDemolition.wasm.gz"
-      ],
-      "ToBuildDependencies": [
-        391,
-        392
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 393
+      "DebugActionIndex": 389
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -18642,7 +18554,7 @@
       "ToBuildDependencies": [
         3
       ],
-      "DebugActionIndex": 394
+      "DebugActionIndex": 390
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -18657,20 +18569,20 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 395
+      "DebugActionIndex": 391
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 89872,
+      "PayloadOffset": 88738,
       "PayloadLength": 1866,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
-      "DebugActionIndex": 396
+      "DebugActionIndex": 392
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -18696,73 +18608,32 @@
       "ToBuildDependencies": [
         2,
         4,
-        396
+        392
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 397
+      "DebugActionIndex": 393
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-      "DisplayName": "7z webgl.data",
-      "Action": "cd \"/home/tumulus/code/school/cs413/MissionDemolition/Library/Bee/artifacts/WebGL\" && \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/7za\" a -tgzip \"/home/tumulus/code/school/cs413/MissionDemolition/Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"webgl.data\"",
+      "Annotation": "CopyFiles MissionDemolition/Build/MissionDemolition.data",
+      "DisplayName": "Copying MissionDemolition.data",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/7za"
+        "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
+        "MissionDemolition/Build/MissionDemolition.data"
       ],
       "ToBuildDependencies": [
-        397
+        393
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 398
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/MissionDemolition.data.gz_7ggq.info",
-      "DisplayName": "Writing MissionDemolition.data.gz_7ggq.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 91841,
-      "PayloadLength": 429,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/MissionDemolition.data.gz_7ggq.info"
-      ],
-      "DebugActionIndex": 399
-    },
-    {
-      "Annotation": "GzipMarker MissionDemolition/Build/MissionDemolition.data.gz",
-      "DisplayName": "GzipMarker MissionDemolition.data",
-      "Action": "\"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/netcorerun/netcorerun\" \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\" \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee:/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/MissionDemolition.data.gz_7ggq.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/MissionDemolition.data.gz_7ggq.info",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe",
-        "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset"
-      ],
-      "Outputs": [
-        "MissionDemolition/Build/MissionDemolition.data.gz"
-      ],
-      "ToBuildDependencies": [
-        398,
-        399
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 400
+      "DebugActionIndex": 394
     },
     {
       "Annotation": "PreprocessJS MissionDemolition/Build/MissionDemolition.loader.js",
       "DisplayName": "PreprocessJS MissionDemolition.loader",
-      "Action": "cd \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='/home/tumulus/code/school/cs413/MissionDemolition/MissionDemolition/Build/MissionDemolition.loader.js'\"  \"locals.webglIncludes='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='MissionDemolition'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='MissionDemolition.data.gz'\" \"FRAMEWORK_FILENAME='MissionDemolition.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='MissionDemolition.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.8f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='MissionDemolition.loader.js'\"",
+      "Action": "cd \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='/home/tumulus/code/school/cs413/MissionDemolition/MissionDemolition/Build/MissionDemolition.loader.js'\"  \"locals.webglIncludes='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='MissionDemolition'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='MissionDemolition.data'\" \"FRAMEWORK_FILENAME='MissionDemolition.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='MissionDemolition.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.8f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='MissionDemolition.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -18771,7 +18642,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 401
+      "DebugActionIndex": 395
     },
     {
       "Annotation": "CopyFiles MissionDemolition/TemplateData/MemoryProfiler.png",
@@ -18783,7 +18654,7 @@
       "Outputs": [
         "MissionDemolition/TemplateData/MemoryProfiler.png"
       ],
-      "DebugActionIndex": 402
+      "DebugActionIndex": 396
     },
     {
       "Annotation": "CopyFiles MissionDemolition/TemplateData/favicon.ico",
@@ -18795,7 +18666,7 @@
       "Outputs": [
         "MissionDemolition/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 403
+      "DebugActionIndex": 397
     },
     {
       "Annotation": "CopyFiles MissionDemolition/TemplateData/fullscreen-button.png",
@@ -18807,7 +18678,7 @@
       "Outputs": [
         "MissionDemolition/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 404
+      "DebugActionIndex": 398
     },
     {
       "Annotation": "CopyFiles MissionDemolition/TemplateData/progress-bar-empty-dark.png",
@@ -18819,7 +18690,7 @@
       "Outputs": [
         "MissionDemolition/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 405
+      "DebugActionIndex": 399
     },
     {
       "Annotation": "CopyFiles MissionDemolition/TemplateData/progress-bar-empty-light.png",
@@ -18831,7 +18702,7 @@
       "Outputs": [
         "MissionDemolition/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 406
+      "DebugActionIndex": 400
     },
     {
       "Annotation": "CopyFiles MissionDemolition/TemplateData/progress-bar-full-dark.png",
@@ -18843,7 +18714,7 @@
       "Outputs": [
         "MissionDemolition/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 407
+      "DebugActionIndex": 401
     },
     {
       "Annotation": "CopyFiles MissionDemolition/TemplateData/progress-bar-full-light.png",
@@ -18855,12 +18726,12 @@
       "Outputs": [
         "MissionDemolition/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 408
+      "DebugActionIndex": 402
     },
     {
       "Annotation": "PreprocessJS MissionDemolition/TemplateData/style.css",
       "DisplayName": "PreprocessJS style",
-      "Action": "cd \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='/home/tumulus/code/school/cs413/MissionDemolition/MissionDemolition/TemplateData/style.css'\"  \"locals.webglIncludes='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='MissionDemolition'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='MissionDemolition.data.gz'\" \"FRAMEWORK_FILENAME='MissionDemolition.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='MissionDemolition.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.8f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='MissionDemolition.loader.js'\"",
+      "Action": "cd \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='/home/tumulus/code/school/cs413/MissionDemolition/MissionDemolition/TemplateData/style.css'\"  \"locals.webglIncludes='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='MissionDemolition'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='MissionDemolition.data'\" \"FRAMEWORK_FILENAME='MissionDemolition.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='MissionDemolition.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.8f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='MissionDemolition.loader.js'\"",
       "Inputs": [
         "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -18869,7 +18740,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 409
+      "DebugActionIndex": 403
     },
     {
       "Annotation": "CopyFiles MissionDemolition/TemplateData/unity-logo-dark.png",
@@ -18881,7 +18752,7 @@
       "Outputs": [
         "MissionDemolition/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 410
+      "DebugActionIndex": 404
     },
     {
       "Annotation": "CopyFiles MissionDemolition/TemplateData/unity-logo-light.png",
@@ -18893,7 +18764,7 @@
       "Outputs": [
         "MissionDemolition/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 411
+      "DebugActionIndex": 405
     },
     {
       "Annotation": "CopyFiles MissionDemolition/TemplateData/webgl-logo.png",
@@ -18905,7 +18776,7 @@
       "Outputs": [
         "MissionDemolition/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 412
+      "DebugActionIndex": 406
     },
     {
       "Annotation": "CopyFiles MissionDemolition/TemplateData/webmemd-icon.png",
@@ -18917,12 +18788,12 @@
       "Outputs": [
         "MissionDemolition/TemplateData/webmemd-icon.png"
       ],
-      "DebugActionIndex": 413
+      "DebugActionIndex": 407
     },
     {
       "Annotation": "PreprocessJS MissionDemolition/index.html",
       "DisplayName": "PreprocessJS index",
-      "Action": "cd \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='/home/tumulus/code/school/cs413/MissionDemolition/MissionDemolition/index.html'\"  \"locals.webglIncludes='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='MissionDemolition'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='MissionDemolition.data.gz'\" \"FRAMEWORK_FILENAME='MissionDemolition.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='MissionDemolition.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.8f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='MissionDemolition.loader.js'\"",
+      "Action": "cd \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='/home/tumulus/code/school/cs413/MissionDemolition/MissionDemolition/index.html'\"  \"locals.webglIncludes='/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='MissionDemolition'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='MissionDemolition.data'\" \"FRAMEWORK_FILENAME='MissionDemolition.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='MissionDemolition.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.8f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='MissionDemolition.loader.js'\"",
       "Inputs": [
         "/home/tumulus/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -18931,7 +18802,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 414
+      "DebugActionIndex": 408
     },
     {
       "Annotation": "Player",
@@ -18941,10 +18812,16 @@
       "ToBuildDependencies": [
         3,
         382,
+        388,
+        389,
         390,
-        393,
+        391,
         394,
         395,
+        396,
+        397,
+        398,
+        399,
         400,
         401,
         402,
@@ -18953,16 +18830,10 @@
         405,
         406,
         407,
-        408,
-        409,
-        410,
-        411,
-        412,
-        413,
-        414
+        408
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 415
+      "DebugActionIndex": 409
     }
   ],
   "FileSignatures": [
@@ -19327,7 +19198,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 415
+          "Player": 409
         }
 ,  "DefaultNodes": [
     0

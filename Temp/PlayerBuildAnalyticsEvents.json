@@ -3,8 +3,8 @@
     {
       "type": "il2cppData",
       "msg": {
-        "build_event_id": "4973a19dcb0aa14f4975df3327e00625",
-        "node_executed": true,
+        "build_event_id": "edd0f74d4d2e8fe3db919c1e5b5ad3f8",
+        "node_executed": false,
         "attribute_total_count_eager_static_constructor": 9,
         "attribute_total_count_set_option": 0,
         "attribute_total_count_generate_into_own_cpp_file": 0,
@@ -42,47 +42,22 @@
     {
       "type": "playerBuildTimingData",
       "msg": {
-        "build_event_id": "4973a19dcb0aa14f4975df3327e00625",
-        "build_player": 208815,
-        "preprocess_player": 33,
-        "produce_player_script_assemblies": 7821,
-        "build_scripts_dlls": 31,
-        "writing_asset_files": 616,
-        "postprocess_built_player": 189921,
-        "node_summary_table": [
-          {
-            "name": "Csc",
-            "duration": 255
-          },
-          {
-            "name": "Csc",
-            "duration": 255
-          },
-          {
-            "name": "Csc",
-            "duration": 200
-          },
-          {
-            "name": "Csc",
-            "duration": 255
-          },
-          {
-            "name": "UnityLinker.exe",
-            "duration": 11421
-          },
-          {
-            "name": "il2cpp.exe",
-            "duration": 5856
-          }
-        ]
+        "build_event_id": "edd0f74d4d2e8fe3db919c1e5b5ad3f8",
+        "build_player": 7733,
+        "preprocess_player": 40,
+        "produce_player_script_assemblies": 2568,
+        "build_scripts_dlls": 26,
+        "writing_asset_files": 102,
+        "postprocess_built_player": 2752,
+        "node_summary_table": []
       },
       "version": 1
     },
     {
       "type": "unityLinkerData",
       "msg": {
-        "build_event_id": "4973a19dcb0aa14f4975df3327e00625",
-        "node_executed": true,
+        "build_event_id": "edd0f74d4d2e8fe3db919c1e5b5ad3f8",
+        "node_executed": false,
         "attribute_marked_count_always_link_assembly": 0,
         "attribute_swept_count_always_link_assembly": 0,
         "attribute_total_count_always_link_assembly": 0,
